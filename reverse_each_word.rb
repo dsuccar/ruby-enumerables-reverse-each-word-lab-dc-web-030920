@@ -1,7 +1,9 @@
 
 require 'pry'
-david = []
+answer = []
 def reverse_each_word(string)
-david << string.split
-binding.pry
+
+string.split.each
+  binding.pry
+end
 end
